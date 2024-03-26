@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://nelson1995.github.io/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/me/</loc>
+    <loc>https://nelson1995.github.io/me/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://nelson1995.github.io/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://nelson1995.github.io/</loc>
     <lastmod>2024-03-21T13:07:10+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://nelson1995.github.io/posts/</loc>
     <lastmod>2024-03-21T13:07:10+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/steps-to-upgrade-laravel-7-project-to-8/</loc>
+    <loc>https://nelson1995.github.io/posts/steps-to-upgrade-laravel-7-project-to-8/</loc>
     <lastmod>2024-03-21T13:07:10+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tg-gh/</loc>
+    <loc>https://nelson1995.github.io/posts/tg-gh/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://nelson1995.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/static-type-checking-and-dynamic-type-checking/</loc>
+    <loc>https://nelson1995.github.io/posts/static-type-checking-and-dynamic-type-checking/</loc>
     <lastmod>2019-02-18T14:40:43+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://nelson1995.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://nelson1995.github.io/tags/</loc>
   </url>
 </urlset>

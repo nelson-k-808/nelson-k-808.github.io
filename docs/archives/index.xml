@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nelson1995</title>
-    <link>http://localhost:1313/archives/</link>
+    <link>https://nelson1995.github.io/archives/</link>
     <description>Recent content on Nelson1995</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Nelson Guest Katale · Powered by [Hugo](https://gohugo.io/) &amp; [Archie](https://github.com/athul/archie)</copyright>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/archives/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nelson1995.github.io/archives/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
