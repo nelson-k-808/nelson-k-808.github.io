@@ -1,7 +1,6 @@
 .DS_Store
 node_modules
 /dist
-/themes/archie
 
 # local env files
 .env.local
