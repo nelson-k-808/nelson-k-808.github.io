@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Nelson1995</title>
+    <link>https://nelson1995.github.io/posts/</link>
+    <description>Recent content in Posts on Nelson1995</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Nelson Guest Katale · Powered by [Hugo](https://gohugo.io/) &amp; [Archie](https://github.com/athul/archie)</copyright>
+    <lastBuildDate>Thu, 21 Mar 2024 13:07:10 +0300</lastBuildDate>
+    <atom:link href="https://nelson1995.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steps to upgrade Laravel 7 project to 8</title>
+      <link>https://nelson1995.github.io/posts/steps-to-upgrade-laravel-7-project-to-8/</link>
+      <pubDate>Thu, 21 Mar 2024 13:07:10 +0300</pubDate>
+      <guid>https://nelson1995.github.io/posts/steps-to-upgrade-laravel-7-project-to-8/</guid>
+      <description>A few years ago I had an old Laravel project that I built back in 2019. Back then I was still a junior developer and at that time I had no plans to host it. Fast forward to March 2024 I decided to host it in Heroku which I detailed in the last article .&#xA;One of my reasons for this post was to give a guide to help make the Laravel version upgrade experience as less time consuming, and straightforward as possible.</description>
+    </item>
+    <item>
+      <title>Telegram Bot for  GitHub Actions</title>
+      <link>https://nelson1995.github.io/posts/tg-gh/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://nelson1995.github.io/posts/tg-gh/</guid>
+      <description>Telegram Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. It is free to use and extensively hackable. It also has a good bot support system. The API is also easy to implement and has many wrappers for building bots with the API.&#xA;GitHub Actions GitHub Actions is a CI/CD runtime for your GitHub repository. You can run almost anything from scripts to docker containers.</description>
+    </item>
+    <item>
+      <title>Static Type Checking and Dynamic Type Checking</title>
+      <link>https://nelson1995.github.io/posts/static-type-checking-and-dynamic-type-checking/</link>
+      <pubDate>Mon, 18 Feb 2019 14:40:43 +0300</pubDate>
+      <guid>https://nelson1995.github.io/posts/static-type-checking-and-dynamic-type-checking/</guid>
+      <description>I’m sure you have ever come across the term type checking, either static or dynamic type checking while reading a textbook about your favorite programming language or during the late afternoon programming lectures and you probably didn’t fully understand what it meant. Evening lecture on programming The problem is that some articles have failed to give a clear explanation on what type checking is and the different types but after doing some research and studying of my own, I’ve decided to write a concise article to help you gain a clear understanding of what type checking means and its different types.</description>
+    </item>
+  </channel>
+</rss>

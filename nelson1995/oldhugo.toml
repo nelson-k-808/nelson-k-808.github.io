@@ -1,0 +1,4 @@
+baseURL = 'https://nelson1995.github.io/'
+languageCode = 'en-us'
+title = 'Nelson1995'
+theme = 'archie'
