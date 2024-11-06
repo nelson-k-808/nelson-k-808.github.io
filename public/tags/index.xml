@@ -1,12 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Nelson1995</title>
+    <title>Tags on Nelson Katale</title>
     <link>https://nelson1995.github.io/tags/</link>
-    <description>Recent content in Tags on Nelson1995</description>
+    <description>Recent content in Tags on Nelson Katale</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Nelson Guest Katale · Powered by [Hugo](https://gohugo.io/) &amp; [Archie](https://github.com/athul/archie)</copyright>
-    <atom:link href="https://nelson1995.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Nelson Katale</copyright>
+    <lastBuildDate>Fri, 18 Oct 2024 19:21:58 +0530</lastBuildDate><atom:link href="https://nelson1995.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primer</title>
+      <link>https://nelson1995.github.io/tags/primer/</link>
+      <pubDate>Fri, 18 Oct 2024 19:21:58 +0530</pubDate>
+      
+      <guid>https://nelson1995.github.io/tags/primer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>todo</title>
+      <link>https://nelson1995.github.io/tags/todo/</link>
+      <pubDate>Fri, 18 Oct 2024 19:21:58 +0530</pubDate>
+      
+      <guid>https://nelson1995.github.io/tags/todo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laravel</title>
+      <link>https://nelson1995.github.io/tags/laravel/</link>
+      <pubDate>Thu, 21 Mar 2024 13:07:10 +0300</pubDate>
+      
+      <guid>https://nelson1995.github.io/tags/laravel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PHP</title>
+      <link>https://nelson1995.github.io/tags/php/</link>
+      <pubDate>Thu, 21 Mar 2024 13:07:10 +0300</pubDate>
+      
+      <guid>https://nelson1995.github.io/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Type checking</title>
+      <link>https://nelson1995.github.io/tags/type-checking/</link>
+      <pubDate>Mon, 18 Feb 2019 14:40:43 +0300</pubDate>
+      
+      <guid>https://nelson1995.github.io/tags/type-checking/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

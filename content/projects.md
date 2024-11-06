@@ -1,7 +1,7 @@
 ---
 title : "Projects"
 layout: "projects"
-weight : "3"
+weight : "5"
 ---
 
 A list of all the personal projects I've developed over a period of time. 

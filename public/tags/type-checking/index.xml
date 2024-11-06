@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Type checking on Nelson Katale</title>
+    <link>https://nelson1995.github.io/tags/type-checking/</link>
+    <description>Recent content in Type checking on Nelson Katale</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Nelson Katale</copyright>
+    <lastBuildDate>Mon, 18 Feb 2019 14:40:43 +0300</lastBuildDate><atom:link href="https://nelson1995.github.io/tags/type-checking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Static Type Checking and Dynamic Type Checking</title>
+      <link>https://nelson1995.github.io/posts/static-type-checking-and-dynamic-type-checking/</link>
+      <pubDate>Mon, 18 Feb 2019 14:40:43 +0300</pubDate>
+      
+      <guid>https://nelson1995.github.io/posts/static-type-checking-and-dynamic-type-checking/</guid>
+      <description>I’m sure you have ever come across the term type checking, either static or dynamic type checking while reading a textbook about your favorite programming language or during the late afternoon programming lectures and you probably didn’t fully understand what it meant.
+The problem is that some articles have failed to give a clear explanation on what type checking is and the different types but after doing some research and studying of my own, I’ve decided to write a concise article to help you gain a clear understanding of what type checking means and its different types.</description>
+    </item>
+    
+  </channel>
+</rss>

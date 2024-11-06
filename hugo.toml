@@ -1,82 +1,110 @@
 baseURL = "https://nelson1995.github.io"
+DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
-title = "Nelson1995"
-theme="archie"
-copyright = "© Nelson Guest Katale · Powered by [Hugo](https://gohugo.io/) & [Archie](https://github.com/athul/archie)"
-# Code Highlight
-pygmentsstyle = "monokai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+title = "Nelson Katale"
+copyright = "Nelson Katale"
+theme = "hugo-theme-diary"
 
-disqusShortname = "yourDisqusShortname"
-assetDir = "static"
-paginate=5 # articles per page
-publishDir = "docs"
+#Google Analytics
+[services]
+  [services.googleAnalytics]
+    id = "G-XXXXXXXXXX"  # Your Google Analytics ID
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
 
 [params]
-	mode="dark" # color-mode → light,dark,toggle or auto
-	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	#subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
-	subtitle = "Welcome to my space."
-	islatestposts = true
-	mathjax = true # enable MathJax support
-	katex = true # enable KaTeX support
+subtitle = "Welcome to my space."
+enableGitalk = false
+enableGiscus = true
 
-	search = "/search"
-	allposts = "/posts"
-	linkedIn = "https://linkedin.com/in/nelson-guest-katale"
-    placeholder = "Type here to search..."
-    custom_search = ["css/search.css"]
+search = "/search"
+allposts = "/posts"
+linkedIn = "https://linkedin.com/in/nelson-guest-katale"
+Instagram = "https://instagram.com/nelson_katale"
+placeholder = "Type here to search..."
+custom_search = ["css/search.css"]
 
-[outputs]
-    home = [ "HTML", "RSS", "JSON"]
-    page = ["HTML", "RSS"]
+# Microsoft Clarity (https://clarity.microsoft.com/) is a free user behavior recording and analytics tool
+clarity = "abcdefghzd"
 
-# Social Tags
+# Twitter Card and Open Graph settings
+enableOpenGraph = true
+enableTwitterCards = true
+title = "My Blog" # will set 'og:site_name'
+description = "My HomePage Description"  # will set 'og:description'
 
-[[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/nelson1995/nelson-portfolio-site/"
+[params.gitalk]
+  owner = "user"
+  repo = "repo name"
+  client_id = "your client id"
+  client_secret = "your client secret"
+[taxonomies]
+   tag = "tags"
+   category = "categories"
 
-[[params.social]]
-name = "LinkedIn"
-icon = "linkedin"
-url = "https://linkedin.com/in/nelson-guest-katale"
+[params.utterances]
+repo="your repo"
+term="[ENTER TERM HERE]"
+label="your label"
+theme="github-light"
 
-[[params.social]]
-name = "StackOverflow"
-icon = "link"
-url = "https://stackoverflow.com/users/7519779/nelson-katale"
+# Please visit https://giscus.app/ to generate settings.
+[params.giscus]
+    data_repo="username/repo"
+    data_repo_id="**************************"    
+    data_category="General"
+    data_category_id="*********************"
+    data_mapping="pathname"
+    data_strict="0"
+    data_reactions_enabled="1"
+    data_emit_metadata="0"
+    data_input_position="bottom"
+    data_theme="preferred_color_scheme"
+    data_lang="en"
+    crossorigin="anonymous"
 
-# Main menu Items
 
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "All posts"
-url = "/posts"
+url = "/categories"
+name = "Categories"
 weight = 2
+
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 3
+
+[[menu.main]]
+url = "/posts"
+name = "Archives"
+weight = 1
 
 [[menu.main]]
 name = "Projects"
 url = "/projects"
-weight = 3
-
-[[menu.main]]
-name = "About"
-url = "/me"
-weight = 4
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
 weight = 5
 
 [[menu.main]]
 name = "Search"
 url = "/search"
 weight = 6
+
+[[menu.main]]
+name = "About"
+url = "/me"
+weight = 7
+
+[[menu.main]]
+url = "/index.xml"
+name = "RSS Feed"
+weight = 4

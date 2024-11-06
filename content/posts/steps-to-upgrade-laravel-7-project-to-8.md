@@ -1,7 +1,12 @@
-+++
-title = 'Steps to upgrade Laravel 7 project to 8'
-date = 2024-03-21T13:07:10+03:00
-+++
+---
+date: 2024-03-21T13:07:10+03:00
+description: "How to upgrade Laravel 7 project to Laravel 8"
+featured_image: "/images/laravel8.jpg"
+images: ["/images/laravel8.jpg"]
+tags: ["Laravel","PHP"]
+categories: "Programming"
+title: "Steps to upgrade Laravel 7 project to Laravel 8"
+---
 
 A few years ago I had an old Laravel project that I built back in 2019. Back then I was still a junior developer
 and at that time I had no plans to host it. Fast forward to March 2024 I decided to host it in Heroku which 

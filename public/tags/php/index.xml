@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP on Nelson Katale</title>
+    <link>https://nelson1995.github.io/tags/php/</link>
+    <description>Recent content in PHP on Nelson Katale</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Nelson Katale</copyright>
+    <lastBuildDate>Thu, 21 Mar 2024 13:07:10 +0300</lastBuildDate><atom:link href="https://nelson1995.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steps to upgrade Laravel 7 project to Laravel 8</title>
+      <link>https://nelson1995.github.io/posts/steps-to-upgrade-laravel-7-project-to-8/</link>
+      <pubDate>Thu, 21 Mar 2024 13:07:10 +0300</pubDate>
+      
+      <guid>https://nelson1995.github.io/posts/steps-to-upgrade-laravel-7-project-to-8/</guid>
+      <description>A few years ago I had an old Laravel project that I built back in 2019. Back then I was still a junior developer and at that time I had no plans to host it. Fast forward to March 2024 I decided to host it in Heroku which I detailed in the last article .
+One of my reasons for this post was to give a guide to help make the Laravel version upgrade experience as less time consuming, and straightforward as possible.</description>
+    </item>
+    
+  </channel>
+</rss>

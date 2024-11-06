@@ -1,10 +1,15 @@
-+++
-title = 'Static Type Checking and Dynamic Type Checking'
-date = 2019-02-18T14:40:43+03:00
-+++
+---
+date: 2019-02-18T14:40:43+03:00
+description: "Understanding Static Type Checking and Dynamic Type Checking "
+featured_image: "/images/1_MQ-wUFiQ_S1KtxJULeyltg.webp"
+images: ["/images/1_MQ-wUFiQ_S1KtxJULeyltg.webp"]
+tags: ["Type checking"]
+categories: "Programming"
+title: "Static Type Checking and Dynamic Type Checking"
+---
 
-I’m sure you have ever come across the term type checking, either static or dynamic type checking while reading a textbook about your favorite programming language or during the late afternoon programming lectures and you probably didn’t fully understand what it meant.
-{{<figure src="/images/1_MQ-wUFiQ_S1KtxJULeyltg.webp" title="Evening lecture on programming">}}   
+
+I’m sure you have ever come across the term type checking, either static or dynamic type checking while reading a textbook about your favorite programming language or during the late afternoon programming lectures and you probably didn’t fully understand what it meant.   
 
 The problem is that some articles have failed to give a clear explanation on what type checking is and the different types but after doing some research and studying of my own, I’ve decided to write a concise article to help you gain a clear understanding of what type checking means and its different types.
 Type checking verifies and enforces constraints on the type of a variable with the aim of keeping the type errors to a minimum. Type checking ensures that the program is type safe as type errors can occur while the program is running .

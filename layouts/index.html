@@ -1,33 +1,41 @@
-<!DOCTYPE html>
-<html>
-	{{ partial "header.html" . }}
-	<body>
-		<div class="content">
-			{{ partial "head.html" . }}
-			
-			<main class="list">
-				<div class="site-description">
-					{{- if isset .Site.Params "subtitle" -}}
-					<h2 class="title-text">{{ .Site.Params.Subtitle | markdownify }}</h2>
-					{{- end -}}
-				</div>
-<!--				{{ with .Site.Params.islatestposts }}-->
-<!--					<p>Recent posts</p>-->
-<!--				{{ end }}-->
-				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-				{{ range $paginator.Pages }}
-				<section class="list-item">
-					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
-					<time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
-					<br>{{ template "partials/pagedescription.html" . }}
-					<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
-				</section>
-				{{ end }}
-				{{ template "partials/paginator.html" . }}
-			</main>
-			{{ partial "footer.html" . }}
-		</div>
-		
-	</body>
-</html>
+{{ define "main" }}
+    <div class="post-list-container post-list-container-no-background">
+        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
+        {{ range $paginator.Pages }}
+            <a href="{{.RelPermalink}}" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-divider">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                {{.Title}}
+                            </div>
+                            <div class="post-item-summary">
+                                {{ if .Description }}
+                                    {{ .Description }}
+                                {{ else }}
+                                    {{ .Summary }}
+                                {{ end }}
+                            </div>
+                            {{ partial "post-item-meta.html" . }}
+                        </div>
+                        {{ $featured_image := .Params.featured_image }}
+                        {{ if $featured_image }}
+                            {{ $image := .Resources.GetMatch (.Params.featured_image) }}
+                            <div class="post-item-image-wrapper">
+                            <div class="post-item-image"
+                            {{ if $image }}
+                                {{ $thumbnail := $image.Resize "690x360" }}
+                                 style="background-image: url('{{ $thumbnail.RelPermalink }}')"
+                            {{ else }}
+                            
+                                style="background-image: url('{{ $featured_image | absURL}}')"
+                            {{ end }}
+                            ></div>
+                            </div>
+                        {{ end }}
+                    </div>
+                </div>
+        {{ end }}
+        </a>
+    </div>
+{{ end }}
