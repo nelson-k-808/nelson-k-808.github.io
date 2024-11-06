@@ -90,6 +90,10 @@ if (!doNotTrack) {
 
 
 
+<script src="/static/vendor/js/popper.min.js"></script>
+<script src="/static/vendor/js/bootstrap.min.js"></script>
+
+
 
 
 
@@ -383,6 +387,12 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
                 keyboard_arrow_up
+            </i>
+        </a>
+        <a class="pagination-action animated-visibility" 
+            data-bs-toggle="modal" data-bs-target="#searchBox">
+            <i class="material-icons pagination-action-icon">
+                search
             </i>
         </a>
         

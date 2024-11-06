@@ -148,6 +148,10 @@
 </script>
 {{ end }}
 
+<!-- Popperjs and Bootstrapjs  -->
+<script src="{{"vendor/js/popper.min.js" | relURL}}"></script>
+<script src="{{"vendor/js/bootstrap.min.js" | relURL}}"></script>
+
 {{ if and (.Site.Params.disqusShortname) (.IsPage) }}
 <script src="https://cdn.jsdelivr.net/npm/vue-disqus@3/dist/vue-disqus.js"></script>
 {{ end }}
